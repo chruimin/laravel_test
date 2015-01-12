@@ -13,5 +13,14 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	// return View::make('hello');
+    return 'asdfasdf';
+});
+
+
+Route::get('/test', function()
+{
+    // return 'hahahahahahahaha';
+    print_r(Sentry::getUserProvider());    
+    print_r(SentryAdmin::getUserProvider());
 });

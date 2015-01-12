@@ -14,7 +14,8 @@
         "davejamesmiller/laravel-breadcrumbs": "dev-master",
         "jildertmiedema/laravel-plupload": "dev-master",
         "itsgoingd/clockwork": "1.*",
-        "bankdev/logviewer": "dev-master"
+        "bankdev/logviewer": "dev-master",
+        "doctrine/dbal": "2.4.*"
     },
     "autoload": {
         "classmap": [
